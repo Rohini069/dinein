@@ -1,0 +1,30 @@
+.signup_container{
+    background-image: url('https://images.unsplash.com/photo-1557499305-bd68d0ad468d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGluZSUyMG9wdGlvbnN8ZW58MHx8MHx8fDA%3D');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.sigup_main{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    backdrop-filter: blur(3px);
+    gap: 20px;
+}
+
+.btn_signup{
+    width: 300px;
+    padding: 10px 80px;
+    background-color: rgb(37, 103, 202);
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
